@@ -1,0 +1,13 @@
+Ex01. Faça um Site de Curriculo para Você!
+O seu curriculo deve conter:
+
+- Uma Imagem
+- Pelo Menos um Link para uma Rede Social
+- Um breve paragrafo sobre você
+- Uma lista de Habilidades (Soft e Hard Skills)
+- Uma lista de experiências
+
+
+Ex02. Faça uma tabela utilizando o HTML para mostrar pessoas.
+As colunas são: Nome, Idade, Altura, Peso
+Adicione pelo menos 3 registros.

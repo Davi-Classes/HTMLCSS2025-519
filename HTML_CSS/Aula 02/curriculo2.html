@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <style>
+        /* 1. Definir o corpo da página (body) para centralizar o conteúdo */
+        body {
+            display: flex;            /* Ativa o modelo Flexbox */
+            justify-content: center;  /* Centraliza horizontalmente */
+            align-items: center;      /* Centraliza verticalmente */
+            height: 100vh;            /* Faz com que o body ocupe toda a altura da tela */
+            margin: 0;                /* Remove as margens padrão do navegador */
+            text-align: center;       /* Centraliza o texto dentro dos elementos */
+            background-color: #f4f4f4; /* Definindo uma cor de fundo clara */
+        }
+
+        /* 2. Definir o conteúdo centralizado para ter uma largura máxima */
+        .container {
+            max-width: 800px; /* Limita a largura do conteúdo */
+            padding: 20px;    /* Espaço interno para não encostar nas bordas */
+            background-color: white; /* Fundo branco para destaque */
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        /* 3. Imagem da foto do perfil */
+        img {
+            border-radius: 50%; /* Torna a imagem redonda */
+            margin-top: 20px;    /* Adiciona um espaço no topo da imagem */
+        }
+
+        /* 4. Estilo para links */
+        a {
+            text-decoration: none; /* Remove o sublinhado */
+            color: #0073b1; /* Cor do link (azul padrão do LinkedIn) */
+        }
+
+        /* 5. Estilo da lista de tecnologias e experiências */
+        ul, ol {
+            text-align: left; /* Alinha os itens à esquerda */
+            padding-left: 20px; /* Adiciona espaçamento no lado esquerdo */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Título principal -->
+        <h1>Davi Lucciola</h1>
+
+        <!-- Imagem do perfil -->
+        <img src="https://www.github.com/davi-lucciola.png" alt="davi" width="150" height="150">
+
+        <!-- Parágrafo de saudação -->
+        <p>Olá meu nome é <b>Davi</b> <i>Lucciola</i>! 😎</p>
+
+        <!-- Links para redes sociais -->
+        <a href="https://www.linkedin.com/in/davi-lucciola" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin-icon" width="30">
+        </a>
+        <a href="https://wa.me/5531986997442?text=ola%20davi,%20tudo%20" target="_blank">Whatsapp</a>
+
+        <!-- Título para Tecnologias -->
+        <h2>Tecnologias</h2>
+        <ul>
+            <li>HTML e CSS</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>Docker</li>
+            <li>AWS</li>
+        </ul>
+
+        <!-- Título para Experiências -->
+        <h2>Experiências</h2>
+        <ol>
+            <li>
+                <h3>Desenvolvedor Backend</h3>
+                <p>Responsável por...</p>
+            </li>
+            <li>Professor de Desenvolvimento Full Stack</li>
+        </ol>
+    </div>
+
+</body>
+</html>

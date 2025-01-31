@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cidades</title>
+  </head>
+
+  <body>
+    <h1>Cidades do Brasil</h1>
+    
+    <!-- 
+        Ao trabalhar com tabelas, precisamos utilizar a Tag <table> 
+    -->
+    <table border="1" style="border-collapse: collapse; width: 100%">
+      <!-- Cada linha da tabela é uma tag <tr> -->
+      <thead>
+        <tr>
+          <!-- Celulas de Cabeçalho são definidas com <th> -->
+          <th>Nome</th>
+          <th>Estado</th>
+          <th>Quantidade de Habitantes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Celulas de Dados são definidas com <td> -->
+          <td>Salvador</td>
+          <td>BA</td>
+          <td>2.4 Milhões de Habitantes</td>
+        </tr>
+        <tr>
+          <td>Belo Horizonte</td>
+          <td>MG</td>
+          <td>2.3 Milhões de Habitantes</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <!-- Podemos fazer uma celula ocupar varias colunas através do colspan -->
+          <td colspan="3">Quantidade de Registros: 3</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
