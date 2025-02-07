@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concurso Publico</title>
+  </head>
+  <body>
+    <h1>Inscrição - Analista de Sistemas</h1>
+    <p>Concurso para <b>Analista de Sistemas</b> da Prefeitura de BH</p>
+
+    <hr />
+
+    <!-- 
+        Fomulários são definidos pela Tag <form> 
+        A propriedade "action" é o link para onde iremos enviar os dados
+    -->
+    <form action="">
+      <!-- Todo campo, será definido através do conjunto "label" e "input" -->
+      <div style="margin-bottom: 12px">
+        <!-- A propriedade "for" se refere ao ID do input que ele está descrevendo -->
+        <label for="nome"> Nome </label> <br />
+
+        <input type="text" name="nome" id="nome" />
+      </div>
+
+      <div style="margin-bottom: 12px">
+        <label for="email"> Email </label> <br />
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <!-- Também podemos utilizar a tag <select> como entrada de dados, onde ela também tem os campos "name" e "id" -->
+      <div style="margin-bottom: 12px">
+        <label for="especialidade"> Especialidade </label> <br />
+        <select name="especialidade" id="especialidade">
+            <option value="" selected disabled> Selecione uma Opção </option>
+            <option value="B"> Backend</option>
+            <option value="F"> Frontend </option>
+            <option value="O"> DevOps </option>
+            <option value="C"> Cloud </option>
+        </select>
+      </div>
+
+      <!-- Para textos mais longos, podemos utilizar a tag <textarea>, que também funciona como um input e precisa ter os mesmos campos "name" e "id" -->
+      <div style="margin-bottom: 12px">
+        <label for="carta"> Carta de Apresentação </label> <br />
+        <textarea name="carta" id="carta" rows="5" style="resize: none;"></textarea>
+      </div>
+
+      <div style="margin-bottom: 12px">
+        <input type="checkbox" name="termos" id="termos" />
+        <label for="termos"> Aceito os Termos e Condições </label>
+      </div>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </body>
+</html>

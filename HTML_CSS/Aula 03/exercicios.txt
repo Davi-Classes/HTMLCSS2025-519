@@ -1,0 +1,17 @@
+Ex01. Faça um formulário de cadastro de usuário, o seu formulário deve conter os campos:
+
+- email (type='email')
+- senha (type='password')
+- confirmação da senha (type='password')
+- aceite de termos (type='checkbox')
+
+Lembre-se de colocar um botão de "submit" e um botão de "reset" para limpar o formulário.
+------------------------------------------------------------
+
+Ex02. Faça um site de um tema a sua escolha utilizando as Tags semanticas que você aprendeu. O site deve conter:
+
+- header: Para titulo principal e logo do site
+- nav: Para menus de navegação (deve ficar no header)
+- main: Conteúdo principal do tema (imagens, paragrafos, listas e outras coisas)
+- footer: Para direitos autoriais e meios de contatos (redes sociais / numeros / endereços)
+
