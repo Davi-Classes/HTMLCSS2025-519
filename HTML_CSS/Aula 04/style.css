@@ -1,0 +1,89 @@
+/* Reset de CSS */
+/* 
+seletor {
+    propriedade1: valor;
+    propriedade2: valor;
+}
+
+-> Seletor: Informa quais tags ele vai aplicar a estilização
+-> Propriedade: O que está sendo estilizado
+-> Valor: Valor do que está sendo estilizado.
+*/
+
+/* Seletor "*" seleciona todas as tags */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Seletor de Tag, selecionando todas as tags "a" */
+a {
+    text-decoration: none;
+}
+
+
+header {
+    color: #FAFAFA;
+    background-color: red;
+}
+
+/* Quando definimos varios seletores com espaços, estamos especificando que queremos estilizar tags dentro de outras tags. 
+
+No caso abaixo queremos estilizar todas as Tags "a" dentro da tag "header"
+*/
+header a {
+    color: #FAFAFA;
+}
+
+
+main {
+    background-color: #3C3C3C;
+}
+
+/* Existem 3 tipos de seletores
+
+- Tag
+- Classe
+- ID
+*/
+
+/* Seletor de Tag é o nome Tag */
+section {
+    color: #FAFAFA;
+}
+
+/* O Seletor de Classe é defido por ".classe" */
+.produto {
+    width: fit-content;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 8px;
+    
+    color: black;
+    background-color: white;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.produto button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 0;
+    border-radius: 4px;
+
+    background-color: orangered;
+}
+
+/* Seletor de Id é defido por "#id" */
+#inicio {
+    height: 600px;
+    padding-top: 200px;
+    text-align: center;
+}
