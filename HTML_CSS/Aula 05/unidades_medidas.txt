@@ -1,0 +1,25 @@
+Unidades de Medida Absolutas
+As unidades absolutas são fixas e não dependem do contexto em que são usadas. Aqui estão algumas delas:
+
+- px (pixels): A unidade mais comum para definir tamanhos fixos.
+- pt (pontos): 1 ponto é igual a 1/72 de polegada.
+- pc (pica): 1 pica é igual a 12 pontos.
+- in (polegadas): Uma polegada equivale a 2,54 cm.
+- cm (centímetros): Unidade métrica.
+- mm (milímetros): Unidade métrica.
+
+Unidades de Medida Relativas
+As unidades relativas dependem de outras propriedades ou elementos da página, tornando o layout mais flexível.
+
+- em: Relativo ao tamanho da fonte do elemento pai. Exemplo: 1em = tamanho da fonte do elemento pai.
+- rem (root em): Relativo ao tamanho da fonte da raiz (<html>), geralmente 16px por padrão.
+- % (porcentagem): Relativo ao tamanho do elemento pai.
+- vw (viewport width): Relativo à largura da janela de visualização (viewport). 1vw é 1% da largura da viewport.
+- vh (viewport height): Relativo à altura da janela de visualização (viewport). 1vh é 1% da altura da viewport.
+- vmin: Relativo ao menor valor entre a largura e altura da viewport.
+- vmax: Relativo ao maior valor entre a largura e altura da viewport.
+- ch: Relativo ao tamanho do caractere "0" da fonte atual.
+- ex: Relativo à altura da letra "x" minúscula na fonte atual.
+- lh: Relativo à altura da linha da fonte atual.
+
+Principais Unidades de Medida: px, rem, %, vh

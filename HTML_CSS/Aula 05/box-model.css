@@ -1,0 +1,83 @@
+/* 
+seletor {
+    propriedade: valor;
+}
+
+Tipos de Propriedades:
+-> Dimensionamento
+    - width
+    - height
+    - border
+    - margin
+    - padding
+
+- Decoração
+    - color
+    - background-color
+    - font-size
+    - font-family
+    - border-radius
+
+- Posicionamento
+
+
+*/
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor de Tag */
+body {
+    background-color: #FAFAFA;
+}
+
+/* 
+Flex-Box
+O flex irá definir uma direção de como os
+elementos serão posicionados, 
+e dado essa direção principal, 
+nós podemos informar como eles estarão 
+distribuidos 
+*/
+main {
+    height: 100vh;
+    display: flex;
+
+    flex-direction: row;
+    gap: 2rem;
+
+    /* Como os elementos vão se posicionar no eixo principal */
+    justify-content: center;
+
+    /* Como os elementos vão se posicionar no eixo transversal */
+    align-items: center;
+}
+
+/* Seletor de Classe */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    width: 10rem;
+    height: 10rem;
+
+    border: 1px solid black;
+}
+
+/* Seletor de ID */
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
