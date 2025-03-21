@@ -1,0 +1,148 @@
+/* Variaveis */
+:root {
+    --color-sedans: hsl(31, 77%, 52%);
+    --color-suvs: hsl(184, 100%, 22%);
+    --color-luxury: hsl(179, 100%, 13%);
+
+    --very-light-gray: hsl(0, 0%, 95%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+
+    --header-font-weight: 700;
+    --header-font-family: "Big Shoulders", sans-serif;
+
+    --text-font-weight: 400;
+    --text-font-family: "Lexend Deca", sans-serif;
+}
+
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Mobile */
+main {
+    margin-block: 7rem;
+    padding-inline: 1.2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+
+    padding: 3rem;
+}
+
+section h1 {
+    font-size: 40px;
+    font-family: var(--header-font-family);
+    font-weight: var(--header-font-weight);
+    text-transform: uppercase;
+
+    color: var(--very-light-gray);
+}
+
+section p {
+    font-size: 15px;
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-weight);
+    color: var(--transparent-white);
+}
+
+section .learn-more-button {
+    font-size: 15px;
+    font-family: var(--text-font-family);
+    
+    padding-block: 14px;
+    padding-inline: 30px;
+
+    border-radius: 32px;
+    border: var(--very-light-gray) 2px solid;
+    background-color: var(--very-light-gray);
+    transition: 0.3s;
+}
+
+#sedans {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: var(--color-sedans);
+}
+
+#sedans .learn-more-button {
+    color: var(--color-sedans);
+}
+
+#sedans .learn-more-button:hover {
+    color: var(--very-light-gray);
+    background-color: var(--color-sedans);
+}
+
+#suvs {
+    background-color: var(--color-suvs);
+}
+
+#suvs .learn-more-button {
+    color: var(--color-suvs);
+}
+
+#suvs .learn-more-button:hover {
+    color: var(--very-light-gray);
+    background-color: var(--color-suvs);
+}
+
+#luxury {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: var(--color-luxury);
+}
+
+#luxury .learn-more-button {
+    color: var(--color-luxury);
+}
+
+#luxury .learn-more-button:hover {
+    color: var(--very-light-gray);
+    background-color: var(--color-luxury);
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+    main {
+        height: 100vh;
+        margin-block: 0;
+        padding-inline: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        max-width: 304px;
+    }
+
+    section h1 {
+        font-size: 32px;
+    }
+
+    #sedans {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 16px;
+    }
+
+    #luxury {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 16px;
+    }
+    
+    section .learn-more-button {
+        margin-top: 3rem;          
+    }
+}
